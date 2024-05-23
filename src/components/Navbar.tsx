@@ -1,7 +1,8 @@
 import React from "react";
 
 const Navbar: React.FC = () => {
-  if (window.location.pathname === "/login") {
+  // if (window.location.pathname === "/login") {
+  if (window.location.pathname === "/jumpingtest/login") {
     return null;
   }
 
@@ -55,7 +56,12 @@ const Navbar: React.FC = () => {
               </button>
             </div>
           </div>
-          <span className="text-white font-bold">JUMPING-HIGH</span>
+          <span
+            className="text-white font-bold"
+            onClick={() => (window.location.href = "/jumpingtest/login")}
+          >
+            JUMPING-HIGH
+          </span>
         </div>
       </div>
     </nav>

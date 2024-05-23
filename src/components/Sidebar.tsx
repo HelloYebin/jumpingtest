@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import testImage from "./../images/test/yebin.png";
 const Sidebar: React.FC = () => {
-  if (window.location.pathname === "/login") {
+  // if (window.location.pathname === "/login") {
+  if (window.location.pathname === "/jumpingtest/login") {
     return null;
   }
   return (
@@ -14,8 +15,8 @@ const Sidebar: React.FC = () => {
     >
       <div className="flex p-10 flex-col items-center bg-custom-727272">
         <img
-          alt="panelImage"
-          src="/img/yebin.png"
+          alt="profileImage"
+          src={testImage}
           style={{ width: "6rem", height: "6rem" }}
           className="rounded-full"
         />
