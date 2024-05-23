@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jumpingtest/static/css/main.8891cf1c.css",
+    "main.js": "/jumpingtest/static/js/main.dd625b69.js",
+    "static/media/pane4.png": "/jumpingtest/static/media/pane4.a2f9199bbe80d02213ec.png",
+    "index.html": "/jumpingtest/index.html",
+    "main.8891cf1c.css.map": "/jumpingtest/static/css/main.8891cf1c.css.map",
+    "main.dd625b69.js.map": "/jumpingtest/static/js/main.dd625b69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8891cf1c.css",
+    "static/js/main.dd625b69.js"
+  ]
+}
